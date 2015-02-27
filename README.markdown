@@ -25,7 +25,7 @@ but you can use any template loader provided by django
   
 FOR DJANGO 1.2+
 
-Shapml Loader wraps other loaders (like the caching loader)
+Shapml Loader wraps other loaders (like the filesystem loader)
 
     TEMPLATE_LOADERS = (
         ('shpaml.Loader',
